@@ -1,0 +1,12 @@
+body {
+--bg-dark: #000;
+--bg-light: #FFF;
+--text-dark: #FFF;
+--text-light: #000;
+--border-dark: #FFF;
+--border-light: #000;
+--proj-bg:     light-dark(var(--bg-dark), var(--bg-light));
+--proj-text:   light-dark(var(--text-dark), var(--text-light));
+--proj-border: light-dark(var(--border-dark), var(--border-light));
+--font-stack: Arial, Helvetica, sans-serif;
+}
