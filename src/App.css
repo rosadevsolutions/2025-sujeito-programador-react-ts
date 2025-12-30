@@ -1,0 +1,22 @@
+.main.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.alunos.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 3rem 0;
+}
+
+.alunos.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 1280px;
+}

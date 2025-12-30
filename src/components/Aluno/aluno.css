@@ -1,0 +1,28 @@
+@import '../../styles/components/variables.css';
+
+.aluno.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--proj-border);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  width: 20%;
+  gap: 1rem;
+}
+
+.aluno.nome,
+.aluno.sobrenome{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.aluno.idade{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.aluno.idade > span{
+  font-weight: 700;
+}
