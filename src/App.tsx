@@ -1,10 +1,9 @@
-function App() {
+import { Header } from "./components/Header/header";
 
+export default function App() {
   return (
     <>
-      App
+      <Header title="React + TypeScript"/>
     </>
   )
 }
-
-export default App
